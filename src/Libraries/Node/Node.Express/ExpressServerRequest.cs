@@ -50,7 +50,15 @@ namespace NodeApi.ExpressJS {
                 return null;
             }
         }
-
+        [ScriptField]
+        [ScriptName("method")]
+        public string Method
+        {
+            get
+            {
+                return null;
+            }
+        }
         [ScriptField]
         [ScriptName("ip")]
         public string IPAddress {
